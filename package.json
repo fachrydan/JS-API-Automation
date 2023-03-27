@@ -1,0 +1,31 @@
+{
+  "name": "js-api-automation",
+  "version": "1.0.0",
+  "description": "mocha chai petStore example",
+  "main": "index.js",
+  "scripts": {
+    "welcome": "mocha test/api/welcomeTest.js",
+    "test get": "mocha test/api/getExample.js",
+    "test post": "mocha test/api/postExample.js"
+    
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fachrydan/JS-API-Automation.git"
+  },
+  "author": "fachrydan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fachrydan/JS-API-Automation/issues"
+  },
+  "homepage": "https://github.com/fachrydan/JS-API-Automation#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.3"
+  }
+}
